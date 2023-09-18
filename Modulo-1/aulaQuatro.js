@@ -2,7 +2,7 @@
 
 const alunos = ['joao','jose','maria'];
 
-console.log(alunos[0]);
+//console.log(alunos[0]);
 
 alunos.push('Renan'); // ultima posição 
 alunos.pop() // remove ultimo elemento
@@ -33,4 +33,13 @@ const nome = 'joao marcelo da silva ferreira'
 for (let i = 0; i < nome.length; i++) {
     //console.log(nome[i]);
 }
-console.log(media)
+//console.log(media)
+
+// Tabuada
+
+let numero = 7;
+
+for (let i = 0; i < 11; i++) {
+    valor = i * numero
+    console.log(`${numero} X ${i} é igual a = ${valor}`)
+}
