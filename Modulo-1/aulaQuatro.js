@@ -41,5 +41,14 @@ let numero = 7;
 
 for (let i = 0; i < 11; i++) {
     valor = i * numero
-    console.log(`${numero} X ${i} é igual a = ${valor}`)
+    //console.log(`${numero} X ${i} é igual a = ${valor}`)
+}
+
+//  Par ou impar
+
+valores = [5,3,2,6,8,11,12];
+
+for (let i = 0; i < valores.length; i++) {
+    if(valores[i]%2){
+    } else console.log(` o valor ${valores[i]} é um numero par`)
 }
