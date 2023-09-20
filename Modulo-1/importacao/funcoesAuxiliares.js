@@ -12,4 +12,13 @@ function print(texto){
     console.log(texto)
 }
 
-module.exports = { gets,print};
+// exercicio - 1
+numeros = [100];
+
+function nota(){
+    const valor = numeros[i];
+    i++;
+    return valor;
+}
+
+module.exports = { gets,print,nota};
