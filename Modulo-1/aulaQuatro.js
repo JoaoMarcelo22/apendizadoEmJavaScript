@@ -46,9 +46,8 @@ for (let i = 0; i < 11; i++) {
 
 //  Par ou impar
 
-valores = [5,3,2,6,8,11,12];
+const valores = [5,3,2,6,8,11,12];
 
 for (let i = 0; i < valores.length; i++) {
-    if(valores[i]%2){
-    } else console.log(` o valor ${valores[i]} é um numero par`)
+    if(valores[i] % 2 === 0) console.log(` o valor ${valores[i]} é um numero par`)
 }
