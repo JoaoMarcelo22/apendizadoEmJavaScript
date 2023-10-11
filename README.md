@@ -1,3 +1,3 @@
 # apendizadoEmJavaScript
-Estudo em JavaScript
+Estudo em JavaScript <br/>
 projeto pokedex meu cria
